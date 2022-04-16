@@ -1,0 +1,137 @@
+body {
+    display: table;
+    width: 98vw;
+    height: 100vh;
+    overflow-x: auto;
+}
+
+.tbcell {
+    padding-left: 385px!important;
+    vertical-align: middle
+}
+
+.btncolor {
+    color: #000000!important;
+}
+
+.main-content {
+    width: 75%;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px #e3ba32;
+    margin: 5em auto;
+    display: flex;
+}
+
+.company__info {
+    background-color: whitesmoke;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+
+.fa-dollar-sign {
+    font-size: 3em;
+}
+
+#remember_me {
+    margin-top: 6px;
+    margin-right: 8px;
+    font-weight: 600;
+}
+
+.login_form {
+    background-color: #fff;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+form {
+    padding: 0 2em;
+}
+
+.form__input {
+    width: 100%;
+    border: 0px solid transparent;
+    border-radius: 0;
+    border-bottom: 1px solid #aaa;
+    padding: .5em .5em .5em;
+    padding-left: 10px;
+    padding-left: 2em;
+    outline: none;
+    margin: 1.5em auto;
+    transition: all .5s ease;
+}
+
+.form__input:focus {
+    border-bottom-color: #e3ba32;
+    box-shadow: 0 0 5px rgba(0, 80, 80, .4);
+    border-radius: 4px;
+}
+
+.btn {
+    transition: all .5s ease;
+    width: 70%;
+    border-radius: 30px;
+    color: #e3ba32;
+    font-weight: 600;
+    background-color: #fff;
+    border: 1px solid #e3ba32;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #e3ba32;
+    color: #fff;
+}
+
+.click {
+    color: #e3ba32;
+}
+
+.logo {
+    width: 100%;
+}
+
+@media (max-width: 640px) {
+    .main-content {
+        width: 85%;
+    }
+}
+
+@media (min-width: 642px) and (max-width:800px) {
+    .main-content {
+        width: 75%;
+    }
+}
+
+@media(max-width:768px) {
+    .company__info {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+    }
+    .login_form {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .logo {
+        width: 50%;
+    }
+    .form__input {
+        padding-left: 10px;
+    }
+}
+
+@media(max-width:375px) {
+    .reset-text {
+        font-size: 30px;
+    }
+}
