@@ -30,4 +30,15 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'firebase' => [
+        'apiKey' => "AIzaSyAZA01ZazTQCDMZqASsNmtP-APRGhDcUf4",
+        'authDomain' => "zanyregister.firebaseapp.com",
+        'databaseURL' => "https://zanyregister.firebaseio.com",
+        'projectId' => "zanyregister",
+        'storageBucket' => "zanyregister.appspot.com",
+        'messagingSenderId' => "672841790808",
+        'appId' => "1:672841790808:web:96db5872f2939744b3a12d",
+        'measurementId' => "G-KX34RN85MH"
+    ],
+
 ];
